@@ -1,0 +1,71 @@
+# MolGuard Yapılandırma / Configuration
+# =====================================
+
+project:
+  name: "MolGuard"
+  version: "1.0.0"
+  seed: 42
+
+paths:
+  raw_data: "data/raw/"
+  processed_data: "data/processed/"
+  checkpoints: "checkpoints/"
+  drive_root: "/content/drive/MyDrive/MolGuard/"
+
+datasets:
+  tox21:
+    name: "ogbg-moltox21"
+    num_tasks: 12
+    description: "Toksisite tahmini / Toxicity prediction"
+  sider:
+    name: "ogbg-molsider"
+    num_tasks: 27
+    description: "Yan etki tahmini / Side effect prediction"
+  bbbp:
+    name: "ogbg-molbbbp"
+    num_tasks: 1
+    description: "Kan-beyin bariyeri / BBB permeability"
+  clintox:
+    name: "ogbg-molclintox"
+    num_tasks: 2
+    description: "Klinik toksisite / Clinical toxicity"
+  ddi:
+    name: "ogbl-ddi"
+    description: "İlaç etkileşimi / Drug-drug interaction"
+
+models:
+  gcn:
+    hidden_dim: 256
+    num_layers: 4
+    dropout: 0.3
+  gat:
+    hidden_dim: 256
+    num_layers: 4
+    num_heads: 8
+    dropout: 0.3
+  gin:
+    hidden_dim: 256
+    num_layers: 5
+    dropout: 0.3
+
+training:
+  batch_size: 64
+  learning_rate: 0.001
+  weight_decay: 0.00001
+  epochs: 200
+  patience: 20
+  optimizer: "adam"
+
+multitask:
+  task_weights:
+    toxicity: 1.0
+    side_effects: 1.0
+    efficacy: 1.0
+
+patient:
+  features: ["age", "gender", "diabetes", "hypertension", "kidney_disease", "liver_disease"]
+  conditioning_dim: 32
+
+explainability:
+  method: "gnn_explainer"
+  epochs: 200

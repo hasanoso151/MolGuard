@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Sanal ortam / Virtual environment
+venv/
+.env
+
+# Veri dosyaları / Data files (büyük dosyalar / large files)
+data/raw/
+data/processed/
+*.pkl
+
+# Model kontrol noktaları / Model checkpoints
+checkpoints/*.pt
+checkpoints/*.pth
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Büyük dosyalar / Large files
+*.zip
+*.tar.gz
+*.h5
+wandb/
