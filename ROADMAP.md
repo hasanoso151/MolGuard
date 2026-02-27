@@ -1,25 +1,32 @@
 # 📅 Proje Yol Haritası | Project Roadmap
 
-## Hafta 1: Veri ve Temel Model | Data & Baseline
-- [ ] Proje yapısı / Project structure
-- [ ] Veri setlerini yükle / Load datasets
-- [ ] EDA (Keşifsel Analiz) / Exploratory Analysis
-- [ ] GCN temel modeli / GCN baseline
+## Hafta 1: Veri ve Temel Model | Data & Baseline ✅
+- [x] Proje yapısı / Project structure
+- [x] Veri setlerini yükle / Load datasets
+- [x] EDA (Keşifsel Analiz) / Exploratory Analysis
+- [x] GCN temel modeli / GCN baseline
 
-## Hafta 2: Gelişmiş Modeller | Advanced Models
-- [ ] GAT + GIN modelleri / GAT + GIN models
-- [ ] Çok Görevli GNN / Multi-Task GNN
-- [ ] Hasta koşullandırma / Patient conditioning
-- [ ] İlaç etkileşimi / Drug interaction (DDI)
+## Hafta 2: Gelişmiş Modeller | Advanced Models ✅
+- [x] GAT + GIN modelleri / GAT + GIN models
+- [x] Çok Görevli GNN / Multi-Task GNN
+- [x] Model karşılaştırması / Model comparison
+- [x] Eğitim grafikleri / Training curves
 
-## Hafta 3: Açıklanabilirlik + Web | Explainability + Web App
-- [ ] GNNExplainer
-- [ ] Güvenli alternatif önerici / Safe alternative
-- [ ] Embedding görselleştirme / Embedding viz
-- [ ] Streamlit web uygulaması / Streamlit web app
+## Hafta 3: Açıklanabilirlik + Analiz | Explainability ✅
+- [x] GNNExplainer
+- [x] GAT Dikkat Görselleştirme / Attention Viz
+- [x] Güvenli alternatif önerici / Safe alternative
+- [x] Embedding görselleştirme / Embedding viz (t-SNE)
+- [x] Hasta profili risk analizi / Patient risk
 
-## Hafta 4: Raporlar | Reports & Presentation
-- [ ] Teknik rapor / Technical report
-- [ ] Model karşılaştırma / Model comparison
-- [ ] Açıklanabilirlik raporu / Explainability report
-- [ ] Sunum / Presentation
+## Hafta 4: Web App + Raporlar | Reports ✅
+- [x] Streamlit web uygulaması / Web app
+- [x] Kaynak kod modülleri / Source code modules
+- [x] Teknik rapor / Technical report
+- [x] Model karşılaştırma raporu / Comparison report
+- [x] Açıklanabilirlik raporu / Explainability report
+- [x] Literatür taraması / Literature review
+
+---
+
+## 🏆 Proje Durumu | Project Status: TAMAMLANDI / COMPLETED ✅
