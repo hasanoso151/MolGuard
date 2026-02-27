@@ -1,0 +1,4 @@
+Model,Valid AUC,Test AUC,En İyi Epoch / Best,Süre / Time (s)
+GCN,0.7883,0.7479,84,130
+GAT,0.7711,0.7315,56,119
+GIN,0.7171,0.6819,14,40

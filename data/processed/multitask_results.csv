@@ -1,0 +1,5 @@
+Görev / Task,Valid AUC,Test AUC
+Toxicity (Tox21),0.7731,0.7431
+Side Effects (SIDER),0.5472,0.6415
+Efficacy (BBBP),0.9273,0.6883
+Clinical (ClinTox),0.9103,0.8100
