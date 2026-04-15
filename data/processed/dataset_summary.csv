@@ -1,5 +1,5 @@
-Dataset,Molecules,Tasks,Avg_Atoms,Avg_Bonds
-Tox21,7831,12,18.6,19.3
-SIDER,1427,27,33.6,35.4
-BBBP,2039,1,24.1,26.0
-ClinTox,1477,2,26.2,27.9
+Veri Seti / Dataset,Molekül / Molecules,Görev / Tasks,Kullanım / Usage,Ort. Atom / Avg Atoms,Ort. Bağ / Avg Bonds
+Tox21,7831,12,Toksisite / Toxicity,18.6,19.3
+SIDER,1427,27,Yan Etkiler / Side Effects,33.6,35.4
+BBBP,2039,1,Etkinlik / Efficacy,24.1,26.0
+ClinTox,1477,2,Klinik Güvenlik / Clinical Safety,26.2,27.9
